@@ -132,6 +132,10 @@ form {
   margin: 0 auto;
 }
 
+.form_light {
+  background: white;
+}
+
 input {
   display: block;
   box-sizing: border-box;
@@ -143,6 +147,10 @@ input {
   font-size: 14px;
 }
 
+.input_light {
+  border: 1px solid black;
+}
+
 label {
   line-height: 2;
   text-align: left;
@@ -152,6 +160,10 @@ label {
   color: white;
   font-size: 14px;
   font-weight: 200;
+}
+
+.label_light {
+  color: black;
 }
 
 button {
@@ -204,6 +216,11 @@ hr {
 
 h2 {
   color: white;
+  font-weight: 200;
+}
+
+.h2_light {
+  color: black;
   font-weight: 200;
 }
 
