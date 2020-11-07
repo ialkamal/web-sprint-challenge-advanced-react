@@ -86,7 +86,7 @@ const CheckoutForm = (props) => {
             className={darkMode ? "" : "input_light"}
           />
         </label>
-        <button>Checkout</button>
+        <button data-testid="checkout">Checkout</button>
       </form>
 
       {showSuccessMessage && (

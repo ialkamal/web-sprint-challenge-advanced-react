@@ -32,7 +32,7 @@ test("form shows success message on submit with form details", async () => {
   });
 
   //submit form
-  fireEvent.click(screen.getByRole("button"));
+  fireEvent.click(screen.getByTestId(/checkout/i));
 
   //check if success message exists
   expect(screen.queryByTestId("successMessage")).toBeInTheDocument();
